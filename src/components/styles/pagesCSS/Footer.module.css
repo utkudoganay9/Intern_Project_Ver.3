@@ -1,0 +1,14 @@
+.footer-container {
+  height: 4rem;
+  width: 100%;
+  background-color: #fcd34d;
+  display: flex;
+  
+  
+}
+
+.logo {
+  width: 40rem;
+  height: auto;
+  margin-left: 950px;
+}

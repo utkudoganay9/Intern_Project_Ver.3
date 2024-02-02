@@ -1,0 +1,26 @@
+/* styles/Sidebar.module.css */
+
+/* Sidebar stil düzenlemeleri */
+.sidebar {
+    height: 100vh; /* Ekran yüksekliği kadar uzunlukta yapar */
+    background-color: #1a202c; /* Sidebar arka plan rengi */
+    width:max-content;
+
+  }
+  
+  /* Linklerin stil düzenlemeleri */
+  .sidebar-link {
+    transition: background-color 0.3s; /* Geçiş efekti ekler */
+  
+    /* Varsayılan link stil tanımlamaları */
+    padding: 0.5rem 1rem;
+    color: #cbd5e0;
+    text-decoration: none;
+  }
+  
+  /* Linkin üzerine geldiğindeki stil tanımlamaları */
+  .sidebar-link:hover {
+    background-color: #edd60d; /* Sarı renk */
+    color: #1a202c; /* Yazı rengi */
+  }
+  
